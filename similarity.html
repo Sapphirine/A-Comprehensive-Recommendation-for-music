@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Location Search</title>
+    <link rel="stylesheet" href="/static/stylelogin.css" type="text/css">
+  </head>
+  <body>
+    <div class="box">
+      <div class="app-title">
+        <h1>Some similar songs we found for you:</h1>
+      </div>
+    <div class="app-title">
+      <p id="1">{{titles[0]}}</p>
+      <p id="2">{{titles[1]}}</p>
+      <p id="3">{{titles[2]}}</p>
+      <p id="4">{{titles[3]}}</p>
+      <p id="5">{{titles[4]}}</p>
+      <p id="6">{{titles[5]}}</p>
+      <p id="7">{{titles[6]}}</p>
+      <p id="8">{{titles[7]}}</p>
+      <p id="9">{{titles[8]}}</p>
+      <script type="text/javascript">
+        document.getElementById("1").style.backgroundColor={{ color[0]|tojson}};
+        document.getElementById("2").style.backgroundColor={{ color[1]|tojson}};
+        document.getElementById("3").style.backgroundColor={{ color[2]|tojson}};
+        document.getElementById("4").style.backgroundColor={{ color[3]|tojson}};
+        document.getElementById("5").style.backgroundColor={{ color[4]|tojson}};
+        document.getElementById("6").style.backgroundColor={{ color[5]|tojson}};
+        document.getElementById("7").style.backgroundColor={{ color[6]|tojson}};
+        document.getElementById("8").style.backgroundColor={{ color[7]|tojson}};
+        document.getElementById("9").style.backgroundColor={{ color[8]|tojson}};
+      </script>
+    </div>
+    </div>
+  </body>
+</html>
