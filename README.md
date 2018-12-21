@@ -4,6 +4,6 @@ For this project, it has been finished by Zheyao Gao (uni:zg2308) and Jinyang Li
 We created a recommendation system for music with Collaborative Filtering, Cosine Similarity and Pricinple Components Analysis.
 Also we visualize our songs with colors (RGB features) in our applications.
 
-Our Youtube Link is (public):https://youtu.be/NgmXX_LrvjA
+Our Youtube Link is (public):https://youtu.be/NgmXX_LrvjA \n
 Our Github Link is (github):https://github.com/Sapphirine/A-Comprehensive-Recommendation-for-music
 
