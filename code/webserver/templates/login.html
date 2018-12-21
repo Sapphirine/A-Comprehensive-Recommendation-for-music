@@ -1,0 +1,104 @@
+<link rel="stylesheet" href="/static/style.css" type="text/css">
+
+<section>
+  <!--for demo wrap-->
+  <h1>Music recommendation system</h1>
+  <div class="tbl-header">
+    <table cellpadding="0" cellspacing="0" border="0">
+      <thead>
+        <tr>
+          <th>Hottest</th>
+          <th>Recommend</th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+  <div class="tbl-content">
+    <table cellpadding="0" cellspacing="0" border="0">
+      <tbody>
+        <tr>
+          <td>
+            <a herf="#" id="11"> {{data1[0]['title']}}</a>
+          </td>
+          <td>
+            <a herf="#" id="21"> {{data2[0]['title']}}</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a herf="#" id="12"> {{data1[1]['title']}}</a>
+          </td>
+          <td>
+            <a herf="#" id="22">{{data2[1]['title']}}</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a herf="#" id="13"> {{data1[2]['title']}}</a>
+          </td>
+          <td>
+            <a herf="#" id="23"> {{data2[2]['title']}}</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a herf="#" id="14"> {{data1[3]['title']}}</a>
+          </td>
+          <td>
+            <a herf="#" id="24"> {{data2[3]['title']}}</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a herf="#" id="15"> {{data1[4]['title']}}</a>
+          </td>
+          <td>
+            <a herf="#" id="25"> {{data2[4]['title']}}</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a herf="#" id="16"> {{data1[5]['title']}}</a>
+          </td>
+          <td>
+            <a herf="#" id="26"> {{data2[5]['title']}}</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+<script>
+document.getElementById("11").setAttribute('href',{{data1[0]['link']|tojson}});
+document.getElementById("11").style.color={{data1[0]['color']|tojson}}
+document.getElementById("12").setAttribute('href',{{data1[1]['link']|tojson}});
+document.getElementById("12").style.color={{data1[1]['color']|tojson}}
+document.getElementById("13").setAttribute('href',{{data1[2]['link']|tojson}});
+document.getElementById("13").style.color={{data1[2]['color']|tojson}}
+document.getElementById("14").setAttribute('href',{{data1[3]['link']|tojson}});
+document.getElementById("14").style.color={{data1[3]['color']|tojson}}
+document.getElementById("15").setAttribute('href',{{data1[4]['link']|tojson}});
+document.getElementById("15").style.color={{data1[4]['color']|tojson}}
+document.getElementById("16").setAttribute('href',{{data1[5]['link']|tojson}});
+document.getElementById("16").style.color={{data1[5]['color']|tojson}}
+document.getElementById("21").setAttribute('href',{{data2[0]['link']|tojson}});
+document.getElementById("21").style.color={{data2[0]['color']|tojson}}
+document.getElementById("22").setAttribute('href',{{data2[1]['link']|tojson}});
+document.getElementById("22").style.color={{data2[1]['color']|tojson}}
+document.getElementById("23").setAttribute('href',{{data2[2]['link']|tojson}});
+document.getElementById("23").style.color={{data2[2]['color']|tojson}}
+document.getElementById("24").setAttribute('href',{{data2[3]['link']|tojson}});
+document.getElementById("24").style.color={{data2[3]['color']|tojson}}
+document.getElementById("25").setAttribute('href',{{data2[4]['link']|tojson}});
+document.getElementById("25").style.color={{data2[4]['color']|tojson}}
+document.getElementById("26").setAttribute('href',{{data2[5]['link']|tojson}});
+document.getElementById("26").style.color={{data2[5]['color']|tojson}}
+</script>
+
+
+<!-- follow me template -->
+<div class="made-with-love">
+  Made with
+  <i>♥</i> by
+  <a target="_blank" href="https://codepen.io/nikhil8krishnan">Zheyao Gao</a>
+</div>
