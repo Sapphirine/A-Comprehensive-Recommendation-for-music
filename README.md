@@ -9,7 +9,7 @@ Our Youtube Link is (public):https://youtu.be/NgmXX_LrvjA
 
 Our Github Link is (github):https://github.com/Sapphirine/A-Comprehensive-Recommendation-for-music
 
-** Note: **
+**Note:**
 For the ratings.csv in the data:
   Because it's two large, you can fetch them in this website: http://labrosa.ee.columbia.edu/millionsong/. Or you can download them more directly through this github link:https://github.com/sastafford/million-song-dataset
 
