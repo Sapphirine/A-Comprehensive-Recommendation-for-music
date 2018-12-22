@@ -25,7 +25,7 @@ For the ratings.csv in the data:
 - data (folder): The dataset that we used in the project and it also includes result file (csv)
   - raw dataset:
     - features.csv
-    - ** ratings.csv(too large to upload here, this is the website where we fetch them http://labrosa.ee.columbia.edu/millionsong/
+    - ** ratings.csv ** (too large to upload here, this is the website where we fetch them http://labrosa.ee.columbia.edu/millionsong/
     - song_info.csv
   - result csv file:
     - Top 10.csv
