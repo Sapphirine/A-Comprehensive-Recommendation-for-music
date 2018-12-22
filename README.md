@@ -15,3 +15,19 @@ For the ratings.csv in the data:
 
 ## Abstract
 - With the rapid development of the era of big data, information is gradually showing an overload state. As one of the most effective methods to implement the balance of interests between information producers and consumers in recent years, the recommendation system (also known as personalized content distribution) play more and more important roles in recent years. According to estimates by Wall Street analysts, the purchase Conversion Rate[1] of Amazon can be as high as 60%. Therefore, exploring how to implement and improve a personalized and comprehensive recommendation is more meaningful.
+
+## Introduction about Package
+- code (folder): The main source code of our project
+  - webserver (folder)
+  - als.ipynb
+  - als.py
+  - similarity.ipynb
+- data (folder): The dataset that we used in the project and it also includes result file (csv)
+  - raw dataset:
+    - features.csv
+    - ** ratings.csv(too large to upload here, this is the website where we fetch them http://labrosa.ee.columbia.edu/millionsong/
+    - song_info.csv
+  - result csv file:
+    - Top 10.csv
+    - CF_Recommendation.csv
+    - similarity.csv
